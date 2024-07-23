@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav {
+    background-color: #5B84B1FF;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 18rem;
+    font-weight: 600;
+    font-size: larger;
+    list-style: none;    
+}
+
+
+.nav li, a {
+    text-decoration: none;
+    color: white;
+}
+
+.profile{
+    padding-top: 70px;
+}
+
+.prof {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 1%;
+}
+
+.info {
+    margin-left: 20px;
+    font-size: larger;
+}
+
+
+#myimg {
+    border-radius: 50%;
+    width: 15%;
+}
+
+.boxshadow{
+    margin-top: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 55px 30px;
+    margin: 1rem;
+    border-radius: 1%;
+}
+
+.list li {
+    margin-top: 10px;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.photos img {
+    width: 270px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #5B84B1FF;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.footer-about, .footer-links, .footer-social{
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-about p, .footer-links ul, .footer-social a {
+    margin: 10px 0;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 5px 0;
+}
+
+.footer-links ul li a, .footer-social a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-social a {
+    display: block;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 5px 0;
+    border-top: 1px solid #fff;
+}
